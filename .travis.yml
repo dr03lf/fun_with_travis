@@ -1,8 +1,9 @@
 language: android
-
+sudo: required
 services:
   - docker
 before_install:
  - sudo apt-get update -qq
  - sudo apt-get install -y qemu-kvm
  - sudo /usr/sbin/kvm-ok
+ - lsmod
