@@ -5,6 +5,7 @@ services:
 before_install:
  - sudo apt-get update -qq
  - sudo apt-get install -y qemu-kvm libvirt-bin
+ - cowsay hi
  - lsmod
  - dmesg
  - cat /proc/cpuinfo
