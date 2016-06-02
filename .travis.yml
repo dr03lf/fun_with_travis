@@ -1,5 +1,6 @@
 language: android
 sudo: required
+dist: trusty
 services:
   - docker
 before_install:
